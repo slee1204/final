@@ -7,10 +7,7 @@ const nextConfig = {
 }
 
 module.exports = {
-  images: {
-    loader: 'imgix',
-    domain: [process.env.CLIENT],
-  },
+  
   eslint: {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.
