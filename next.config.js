@@ -6,6 +6,8 @@ const nextConfig = {
   }
 }
 
+const withImages = require('next-images')
+
 module.exports = {
   
   eslint: {
@@ -13,8 +15,6 @@ module.exports = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
-  nextConfig
+  nextConfig,
+  withImages
 }
-
-const withImages = require('next-images')
-module.exports = withImages()
