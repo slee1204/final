@@ -5,8 +5,8 @@ const nextConfig = {
     styledComponents: true
   }
 }
-const withImages = require('next-images')
-module.exports = withImages(),{
+
+module.exports = {
   
   eslint: {
     // Warning: This allows production builds to successfully complete even if
@@ -15,3 +15,6 @@ module.exports = withImages(),{
   },
   nextConfig
 }
+
+const withImages = require('next-images')
+module.exports = withImages()
